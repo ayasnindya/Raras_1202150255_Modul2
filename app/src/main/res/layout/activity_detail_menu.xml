@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="40dp"
+    android:paddingBottom="40dp"
+    tools:context="id.ac.telkomuniversity.student.ayasnindya.raras_1202150255_modul2.DetailMenuActivity">
+
+    <ImageView
+        android:id="@+id/detailGambar"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:src="@drawable/nasi_goreng"
+        android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/namaMakanan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nasi_goreng"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/harga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rp. 30000"
+            android:textSize="22dp"
+            android:textStyle="normal"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/komposisi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:text="Komposisi : "
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/komposisiMakanan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bumbu_nasigoreng"
+            android:textStyle="normal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textSize="18dp" />
+
+
+
+</LinearLayout>

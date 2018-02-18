@@ -1,0 +1,48 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">RARAS_1202150255_MODUL2</string>
+    <string name="toast_message">RARAS_1202150255</string>
+    <string name="pilih_menu">Pilih Menu:</string>
+    <string name="dine_in">Dine In</string>
+    <string name="take_away">Take Away</string>
+    <string name="pesan_sekarang">Pesan Sekarang</string>
+    <string name="chosen">chosen: </string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="alamat">Alamat</string>
+    <string name="catatan">Catatan</string>
+    <string name="pilih_pesanan">Pilih Pesanan</string>
+    <string name="nothing_selected">onNothingSelected:</string>
+
+    <string-array name="labels_array">
+        <item>Meja 1</item>
+        <item>Meja 2</item>
+        <item>Meja 3</item>
+        <item>Meja 4</item>
+    </string-array>
+    <string name="title_activity_daftar_menu">DaftarMenu</string>
+    <string name="nasi_goreng">Nasi Goreng</string>
+    <string name="mie_goreng">Mie Goreng</string>
+    <string name="mie_kuah">Mie Kuah</string>
+    <string name="bakmi_jawa">Bakmi Jawa</string>
+    <string name="nasi_wagyu">Nasi Wagyu</string>
+    <string name="nasi_goreng_harga">Nasi Goreng Harga: Rp 18.000</string>
+    <string name="mie_goreng_harga">Mie Goreng Harga Rp 16.000</string>
+    <string name="mie_kuah_harga">Mie Kuah Harga: Rp 16.000</string>
+    <string name="nasi_wagyu_harga">Nasi Wagyu Harga: Rp 30.000</string>
+    <string name="bakmi_jawa_harga">Bakmi Jawa Harga 20.000</string>
+    <string name="nasi_goreng_message">Kamu Pesan Nasi Goreng.</string>
+    <string name="mie_goreng_message">Kamu Pesan Mie Goreng.</string>
+    <string name="mie_kuah_message">Kamu Pesan Mie Kuah.</string>
+    <string name="nasi_wagyu_message">Kamu Pesan nasi wagyu.</string>
+    <string name="bakmi_jawa_message">Kamu Pesan bakmi jawa.</string>
+    <string name="bumbu_nasigoreng">Nasi, Telur, bumbu nasigoreng</string>
+    <string name="tanggal_tombol">Tanggal</string>
+    <string name="waktu_tombol">Waktu</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+
+
+</resources>

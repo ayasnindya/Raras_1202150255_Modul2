@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="id.ac.telkomuniversity.student.ayasnindya.raras_1202150255_modul2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        //splash screen
+        <activity
+            android:name=".ScreenSplash"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".TakeAway" />
+        <activity android:name=".DineInActivity" />
+        <activity
+            android:name=".DaftarMenu"
+            android:label="@string/title_activity_daftar_menu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".DineInActivity" />
+        <activity android:name=".DetailMenuActivity"
+        android:label="Detail Activity"
+        android:parentActivityName=".DaftarMenu">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".DaftarMenu"/>
+    </activity>
+        <activity android:name=".MenuListAdapter" />
+        <activity android:name=".MenuModel"></activity>
+    </application>
+
+</manifest>
